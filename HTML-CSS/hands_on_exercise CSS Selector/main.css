@@ -1,0 +1,39 @@
+#three {
+    color: red;
+}
+
+.number{
+    color: reds;
+}
+[target] {
+    border: 1px solid red ;
+}
+
+a:link {
+color: red;
+
+}
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color:green
+}
+
+a:active{
+    color: yellow;
+}
+
+#number4:first-letter {
+    font-size: 32px;
+}
+
+#number4:first-line{
+    font-size: 32px;
+    color: red;
+}
+
+div > p{
+    color: red;
+}
