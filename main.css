@@ -1,0 +1,26 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px;
+    border: 20px blue groove;
+    background-image: url(HTML-CSS/html-css-bootcamp-master/000_img/pup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.new01 {
+    width: 400px;
+    height: 200px;
+    border: 40px dashed red;
+    margin: 20px auto;
+}
+
+.new02 {
+    width: 400px;
+    height: 200px;
+    border: 40px dashed red;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
