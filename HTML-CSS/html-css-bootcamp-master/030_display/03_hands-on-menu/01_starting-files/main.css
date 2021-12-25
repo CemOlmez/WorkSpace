@@ -13,4 +13,5 @@ ul {
 li {
     /*border: 2px solid red;*/
     border-radius: 50px;
+    display: inline-block;
 }
