@@ -1,0 +1,23 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 100px;
+    background-image: url("../html-css-bootcamp-master/000_img/pup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    border: 10px groove blue;
+    border-radius: 100px;
+}
+.onedog  {
+    border: 10px medium pink;
+}
+.twodog {
+    border: 10px dashed red;
+}
+.threedog {
+    border: 10px dotted gold;
+}

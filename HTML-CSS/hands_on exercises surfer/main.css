@@ -1,0 +1,26 @@
+html {
+    background-color: blue;
+}
+
+body {
+    width: 60%;
+    margin: 0 auto;
+    background-color: green;
+    border: 5px solid black;
+
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 10px ridge gold;
+}
+
+#header1 {
+    color: red;
+}
+
+#header2 {
+    color:blue;
+}
