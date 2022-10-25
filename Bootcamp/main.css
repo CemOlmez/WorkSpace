@@ -1,0 +1,17 @@
+/* *{
+    color: red;
+    background-color: white;
+} */
+
+body{
+    background-color: #A27E8E ;
+
+}
+
+button{
+    font-size: 30px;
+}
+
+h1,h2 {
+    color: blue;
+}
