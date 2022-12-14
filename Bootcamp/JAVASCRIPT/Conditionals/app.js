@@ -1,11 +1,11 @@
-let random = Math.random()
-if ( random < 0.5) {
-    console.log("YOUR NUMBER IS LESS THAN 0.5!!!");
-}
-else {
-    console.log("YOUR NUMBER IS GREATER THAN 0.5!!!");
-}
-console.log(random);
+// let random = Math.random()
+// if ( random < 0.5) {
+//     console.log("YOUR NUMBER IS LESS THAN 0.5!!!");
+// }
+// else {
+//     console.log("YOUR NUMBER IS GREATER THAN 0.5!!!");
+// }
+// console.log(random);
 
 
 
@@ -45,3 +45,21 @@ console.log(random);
 //     console.log("You are an adult. You pay $20")
 // }
 
+
+
+
+const password = prompt("please enter a new password");
+
+if ( password.length >= 6) {
+    console.log("LONG ENOUGH PASSWORD!")
+}
+else{
+    console.log("PASWORD TOO SHORT! Must be 6+ characters")
+}
+
+if (password.indexOf(" ") === -1) {
+    console.log("Good job! No space!")
+}
+else{
+    console.log("Password cannot contain spaces")
+ }
