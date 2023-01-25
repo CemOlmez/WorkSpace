@@ -1,41 +1,41 @@
-// function singSong() {
-//     console.log("DO");
-//     console.log("RE");
-//     console.log("MI");
-// }
+function singSong() {
+    console.log("DO");
+    console.log("RE");
+    console.log("MI");
+}
 
-// function greet(firstName, lastName) {
-//     console.log(`Hey there,${firstName} ${lastName[0]}.`)
-// }
+function greet(firstName, lastName) {
+    console.log(`Hey there,${firstName} ${lastName[0]}.`)
+}
 
-// function repeat(str,numTimes) {
-//     let result = "";
-//     for (let i = 0; i <numTimes; i++) {
-//         result += str;
-//     }
-//     console.log(result);
-// }
+function repeat(str,numTimes) {
+    let result = "";
+    for (let i = 0; i <numTimes; i++) {
+        result += str;
+    }
+    console.log(result);
+}
 
 
 
-// function isSnakeEyes() {
-//     let dieOne = Math.floor((Math.random() * 6) + 1);
-//     let dieTwo = Math.floor((Math.random() * 6) + 1);
-//     console.log(dieOne,dieTwo)
-//         if (dieOne === 1 && dieTwo === 1) {
-//             console.log("Snake Eyes!")
-//         } else {
-//         console.log("Not Snake Eyes!")
-//     }
-// } 
+function isSnakeEyes() {
+    let dieOne = Math.floor((Math.random() * 6) + 1);
+    let dieTwo = Math.floor((Math.random() * 6) + 1);
+    console.log(dieOne,dieTwo)
+        if (dieOne === 1 && dieTwo === 1) {
+            console.log("Snake Eyes!")
+        } else {
+        console.log("Not Snake Eyes!")
+    }
+} 
 
-// function lastElement (array) {
-//     if (typeof array === 'undefined') {
-//         return typeof null;
-//     } else {
-//         return array[array.length - 1];
-//     }
-// }
+function lastElement (array) {
+    if (typeof array === 'undefined') {
+        return typeof null;
+    } else {
+        return array[array.length - 1];
+    }
+}
 
 
 function capitalize (str) {
