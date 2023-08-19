@@ -12,13 +12,14 @@ body {
     height: 200px;
     color: white;
     text-align: center;
-    line-height: 200px; /* centers vertically */
+    line-height: 200px;
+    /* centers vertically */
     margin: 20px;
 }
 
 .c01 {
     /*background-color: deepskyblue;*/
-    background-color: rgb(0,0,255);
+    background-color: rgb(0, 0, 255);
 }
 
 .c02 {
@@ -38,6 +39,7 @@ body {
     background-color: dimgray;
     border: 2px solid hotpink;
 }
+
 .c04:hover {
     border: 2px solid lawngreen;
 }
