@@ -5,7 +5,7 @@ const methodOverride = require('method-override')
 const app = express();
 
 
-const Product = require("./models/porduct")
+const Product = require("./models/product")
 
 mongoose.connect('mongodb://127.0.0.1:27017/farmStand')
     .then(() => {
