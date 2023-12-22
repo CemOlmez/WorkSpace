@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+
+    <nav id="home-nav">
+        <div class="nav-logo">
+            <img src="/eletrolyte/İmg/Logo_V22.11 1.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#symptoms">Symptoms</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#connect">Connect</a></li>
+        </ul>
+        <button class="buy-btn">Buy Now</button>
+    </nav>
+    <nav id="navbar-toggler">
+        <div class="nav-logo">
+            <img src="/eletrolyte/İmg/Logo_V22.11 1.png" alt="Logo">
+        </div>
+        <div class="toggle-menu">
+            <div class="toggle-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="toggle-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#symptoms" onclick="toggleMenu()">Symptoms</a></li>
+                <li><a href="#benefits" onclick="toggleMenu()">Benefits</a></li>
+                <li><a href="#connect" onclick="toggleMenu()">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="section_img-container">
+            <img src="/eletrolyte/İmg/Fasting salts box (3D).png" alt="Fasting salts box">
+        </div>
+        <div class="section_text">
+            <h1 class="section_text_h1">Boost your electrolyte levels and make water fasting x10 easier</h1>
+            <p class="section_text_p1">Pure electrolyte salt to rehydrate and restore electrolyte balance
+                Free from sugar, sweeteners, flavoring, gluten, and soy</p>
+            <p class="section_text_p2">Ideal for 24+hour fasts</p>
+            <div>
+                <button class="buy-btn">Buy Now</button>
+                <button class="buy-btn" onclick="location.href='./#connect'">Contact Info</button>
+            </div>
+            <div id="social-contact">
+                <img src="/eletrolyte/İmg/014instagram.png" alt="Instagram contact" class="icon" onclick="location.href='https://www.instagram.com/'">
+                <img src="/eletrolyte/İmg/027whatsapp.png" alt="whatsapp contact" class="icon" onclick="location.href='https://web.whatsapp.com/'">
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
